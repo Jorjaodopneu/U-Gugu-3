@@ -1,0 +1,395 @@
+<svg class="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1391.61 1290.25" width="1391.61" height="1290.25" id="m36e9f9__root" data-diagram-type="er">
+  <style data-mercat-style="universal">.mercat text{font-family:'Google Sans',Roboto,Arial,sans-serif;fill:var(--m-text);dominant-baseline:central}.mercat .m-node .m-shape{fill:var(--m-node-fill);stroke:var(--m-node-stroke);stroke-width:1.5px}.mercat .m-edge .m-path{fill:none;stroke:var(--m-line);stroke-width:1.5px}.mercat .m-edge-label .m-pill-bg,.mercat .m-edge-label .m-shape{fill:var(--m-pill-bg);stroke:var(--m-pill-border);stroke-width:1px}.mercat .m-edge-label .m-label{fill:var(--m-text-sec)}.mercat .t-label-strong{font-size:13px;font-weight:700}.mercat .t-edge{font-size:11px;font-weight:400}</style>
+  <style data-mercat-style="theme-light">#m36e9f9__root{--m-bg:#ffffff;--m-text:#1f1f1f;--m-text-sec:#797979;--m-text-muted:#a5a5a5;--m-line:#545454;--m-node-fill:#f8f9fa;--m-node-stroke:#747775;--m-group-hdr:#f4f4f4;--m-pill-bg:#fbfbfb;--m-pill-border:#d7d7d7}</style>
+  <style data-mercat-style="theme-dark">#m36e9f9__root.dark{--m-bg:#1f1f1f;--m-text:#e3e3e3;--m-text-sec:#959595;--m-text-muted:#6d6d6d;--m-line:#bfbfbf;--m-node-fill:#2d2e30;--m-node-stroke:#8e918f;--m-group-hdr:#292929;--m-pill-bg:#232323;--m-pill-border:#424242}</style>
+  <style data-mercat-style="type">#m36e9f9__root .m-node&gt;.m-shape{stroke-width:1px}#m36e9f9__root .m-node .er-header{fill:var(--m-group-hdr);stroke:var(--m-node-stroke);stroke-width:1px}#m36e9f9__root .m-node .er-divider{fill:none;stroke:var(--m-node-stroke);stroke-width:1px}#m36e9f9__root .m-node .er-empty{fill:var(--m-text-muted);font-style:italic}</style>
+  <g class="mercat mercat-er" transform="translate(-35, 47.25)">
+    <defs>
+      <marker id="m36e9f9__mk-only-one" refX="13.5" refY="4.8" markerWidth="13.5" markerHeight="9.6" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+        <path d="M 0 4.8 L 13.5 4.8 M 10.5 0.8 L 10.5 8.8 M 7 0.8 L 7 8.8" class="m-marker" fill="none" stroke="var(--m-line)" stroke-width="1.25" stroke-linecap="round"/>
+      </marker>
+      <marker id="m36e9f9__mk-zero-many" refX="20" refY="5" markerWidth="20" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+        <path d="M 0 5 L 20 5 M 20 0.7 L 13 5 L 20 9.3" class="m-marker" fill="none" stroke="var(--m-line)" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="8.9" cy="5" r="2.6" class="m-marker" fill="var(--m-bg)" stroke="var(--m-line)" stroke-width="1.25"/>
+      </marker>
+    </defs>
+    <g class="m-node m-node--rect" id="m36e9f9__node__CONTINENTE" data-role="vertex">
+      <rect x="83.38" y="50" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="50" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="84" x2="223.38" y2="84" class="er-divider"/>
+      <text x="153.38" y="67" class="m-label t-label-strong" text-anchor="middle">CONTINENTE</text>
+      <text x="153.38" y="95" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__ERA_5fHISTORICA" data-role="vertex">
+      <rect x="83.38" y="146" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="146" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="180" x2="223.38" y2="180" class="er-divider"/>
+      <text x="153.38" y="163" class="m-label t-label-strong" text-anchor="middle">ERA_HISTORICA</text>
+      <text x="153.38" y="191" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__PERSONAGEM_5fHISTORICO" data-role="vertex">
+      <rect x="50" y="242" width="206.75" height="122" class="m-shape"/>
+      <rect x="50" y="242" width="206.75" height="34" class="m-shape er-header"/>
+      <line x1="50" y1="276" x2="256.75" y2="276" class="er-divider"/>
+      <text x="153.38" y="259" class="m-label t-label-strong" text-anchor="middle">PERSONAGEM_HISTORICO</text>
+      <text x="153.38" y="287" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__CARGO_5fPUBLICO" data-role="vertex">
+      <rect x="80.67" y="404" width="145.4" height="56" class="m-shape"/>
+      <rect x="80.67" y="404" width="145.4" height="34" class="m-shape er-header"/>
+      <line x1="80.67" y1="438" x2="226.08" y2="438" class="er-divider"/>
+      <text x="153.38" y="421" class="m-label t-label-strong" text-anchor="middle">CARGO_PUBLICO</text>
+      <text x="153.38" y="449" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__INSTITUICAO" data-role="vertex">
+      <rect x="83.38" y="500" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="500" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="534" x2="223.38" y2="534" class="er-divider"/>
+      <text x="153.38" y="517" class="m-label t-label-strong" text-anchor="middle">INSTITUICAO</text>
+      <text x="153.38" y="545" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__TIPO_5fITEM" data-role="vertex">
+      <rect x="83.38" y="596" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="596" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="630" x2="223.38" y2="630" class="er-divider"/>
+      <text x="153.38" y="613" class="m-label t-label-strong" text-anchor="middle">TIPO_ITEM</text>
+      <text x="153.38" y="641" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__MATERIAL" data-role="vertex">
+      <rect x="83.38" y="692" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="692" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="726" x2="223.38" y2="726" class="er-divider"/>
+      <text x="153.38" y="709" class="m-label t-label-strong" text-anchor="middle">MATERIAL</text>
+      <text x="153.38" y="737" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__AUTOR" data-role="vertex">
+      <rect x="83.38" y="788" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="788" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="822" x2="223.38" y2="822" class="er-divider"/>
+      <text x="153.38" y="805" class="m-label t-label-strong" text-anchor="middle">AUTOR</text>
+      <text x="153.38" y="833" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__EDITORA" data-role="vertex">
+      <rect x="83.38" y="884" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="884" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="918" x2="223.38" y2="918" class="er-divider"/>
+      <text x="153.38" y="901" class="m-label t-label-strong" text-anchor="middle">EDITORA</text>
+      <text x="153.38" y="929" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__PESQUISADOR" data-role="vertex">
+      <rect x="83.38" y="980" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="980" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="1014" x2="223.38" y2="1014" class="er-divider"/>
+      <text x="153.38" y="997" class="m-label t-label-strong" text-anchor="middle">PESQUISADOR</text>
+      <text x="153.38" y="1025" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__IDIOMA" data-role="vertex">
+      <rect x="83.38" y="1076" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="1076" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="1110" x2="223.38" y2="1110" class="er-divider"/>
+      <text x="153.38" y="1093" class="m-label t-label-strong" text-anchor="middle">IDIOMA</text>
+      <text x="153.38" y="1121" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__EXPOSICAO" data-role="vertex">
+      <rect x="83.38" y="1172" width="140" height="56" class="m-shape"/>
+      <rect x="83.38" y="1172" width="140" height="34" class="m-shape er-header"/>
+      <line x1="83.38" y1="1206" x2="223.38" y2="1206" class="er-divider"/>
+      <text x="153.38" y="1189" class="m-label t-label-strong" text-anchor="middle">EXPOSICAO</text>
+      <text x="153.38" y="1217" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__PAIS" data-role="vertex">
+      <rect x="396.88" y="-32.25" width="140" height="78" class="m-shape"/>
+      <rect x="396.88" y="-32.25" width="140" height="34" class="m-shape er-header"/>
+      <line x1="396.88" y1="1.75" x2="536.88" y2="1.75" class="er-divider"/>
+      <text x="466.88" y="-15.25" class="m-label t-label-strong" text-anchor="middle">PAIS</text>
+      <text x="466.88" y="12.75" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__PERIODO_5fHISTORICO" data-role="vertex">
+      <rect x="380.73" y="85.75" width="172.3" height="78" class="m-shape"/>
+      <rect x="380.73" y="85.75" width="172.3" height="34" class="m-shape er-header"/>
+      <line x1="380.73" y1="119.75" x2="553.03" y2="119.75" class="er-divider"/>
+      <text x="466.88" y="102.75" class="m-label t-label-strong" text-anchor="middle">PERIODO_HISTORICO</text>
+      <text x="466.88" y="130.75" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__GRUPO_5fSOCIAL" data-role="vertex">
+      <rect x="396.88" y="203.75" width="140" height="56" class="m-shape"/>
+      <rect x="396.88" y="203.75" width="140" height="34" class="m-shape er-header"/>
+      <line x1="396.88" y1="237.75" x2="536.88" y2="237.75" class="er-divider"/>
+      <text x="466.88" y="220.75" class="m-label t-label-strong" text-anchor="middle">GRUPO_SOCIAL</text>
+      <text x="466.88" y="248.75" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__CARGO_5fOCUPADO" data-role="vertex">
+      <rect x="389.83" y="399.75" width="154.1" height="78" class="m-shape"/>
+      <rect x="389.83" y="399.75" width="154.1" height="34" class="m-shape er-header"/>
+      <line x1="389.83" y1="433.75" x2="543.93" y2="433.75" class="er-divider"/>
+      <text x="466.88" y="416.75" class="m-label t-label-strong" text-anchor="middle">CARGO_OCUPADO</text>
+      <text x="466.88" y="444.75" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__COLECAO" data-role="vertex">
+      <rect x="396.88" y="539" width="140" height="78" class="m-shape"/>
+      <rect x="396.88" y="539" width="140" height="34" class="m-shape er-header"/>
+      <line x1="396.88" y1="573" x2="536.88" y2="573" class="er-divider"/>
+      <text x="466.88" y="556" class="m-label t-label-strong" text-anchor="middle">COLECAO</text>
+      <text x="466.88" y="584" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__OBRA_5fBIBLIOGRAFICA" data-role="vertex">
+      <rect x="376.75" y="810.5" width="180.27" height="100" class="m-shape"/>
+      <rect x="376.75" y="810.5" width="180.27" height="34" class="m-shape er-header"/>
+      <line x1="376.75" y1="844.5" x2="557.02" y2="844.5" class="er-divider"/>
+      <text x="466.88" y="827.5" class="m-label t-label-strong" text-anchor="middle">OBRA_BIBLIOGRAFICA</text>
+      <text x="466.88" y="855.5" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__PROJETO_5fPESQUISA" data-role="vertex">
+      <rect x="383.12" y="958" width="167.53" height="78" class="m-shape"/>
+      <rect x="383.12" y="958" width="167.53" height="34" class="m-shape er-header"/>
+      <line x1="383.12" y1="992" x2="550.65" y2="992" class="er-divider"/>
+      <text x="466.88" y="975" class="m-label t-label-strong" text-anchor="middle">PROJETO_PESQUISA</text>
+      <text x="466.88" y="1003" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__FONTE_5fPRIMARIA" data-role="vertex">
+      <rect x="393.79" y="1076" width="146.2" height="78" class="m-shape"/>
+      <rect x="393.79" y="1076" width="146.2" height="34" class="m-shape er-header"/>
+      <line x1="393.79" y1="1110" x2="539.98" y2="1110" class="er-divider"/>
+      <text x="466.88" y="1093" class="m-label t-label-strong" text-anchor="middle">FONTE_PRIMARIA</text>
+      <text x="466.88" y="1121" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__REGIAO_5fHISTORICA" data-role="vertex">
+      <rect x="681.09" y="-32.25" width="161.73" height="78" class="m-shape"/>
+      <rect x="681.09" y="-32.25" width="161.73" height="34" class="m-shape er-header"/>
+      <line x1="681.09" y1="1.75" x2="842.82" y2="1.75" class="er-divider"/>
+      <text x="761.95" y="-15.25" class="m-label t-label-strong" text-anchor="middle">REGIAO_HISTORICA</text>
+      <text x="761.95" y="12.75" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__ITEM_5fACERVO" data-role="vertex">
+      <rect x="691.95" y="578" width="140" height="188" class="m-shape"/>
+      <rect x="691.95" y="578" width="140" height="34" class="m-shape er-header"/>
+      <line x1="691.95" y1="612" x2="831.95" y2="612" class="er-divider"/>
+      <text x="761.95" y="595" class="m-label t-label-strong" text-anchor="middle">ITEM_ACERVO</text>
+      <text x="761.95" y="623" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__CITACAO_5fHISTORICA" data-role="vertex">
+      <rect x="677.02" y="832.5" width="169.87" height="56" class="m-shape"/>
+      <rect x="677.02" y="832.5" width="169.87" height="34" class="m-shape er-header"/>
+      <line x1="677.02" y1="866.5" x2="846.89" y2="866.5" class="er-divider"/>
+      <text x="761.95" y="849.5" class="m-label t-label-strong" text-anchor="middle">CITACAO_HISTORICA</text>
+      <text x="761.95" y="877.5" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__TRANSCRICAO" data-role="vertex">
+      <rect x="691.95" y="1087" width="140" height="56" class="m-shape"/>
+      <rect x="691.95" y="1087" width="140" height="34" class="m-shape er-header"/>
+      <line x1="691.95" y1="1121" x2="831.95" y2="1121" class="er-divider"/>
+      <text x="761.95" y="1104" class="m-label t-label-strong" text-anchor="middle">TRANSCRICAO</text>
+      <text x="761.95" y="1132" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__CIDADE_5fHISTORICA" data-role="vertex">
+      <rect x="966.89" y="42.31" width="159.61" height="100" class="m-shape"/>
+      <rect x="966.89" y="42.31" width="159.61" height="34" class="m-shape er-header"/>
+      <line x1="966.89" y1="76.31" x2="1126.5" y2="76.31" class="er-divider"/>
+      <text x="1046.69" y="59.31" class="m-label t-label-strong" text-anchor="middle">CIDADE_HISTORICA</text>
+      <text x="1046.69" y="87.31" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__RESTAURACAO" data-role="vertex">
+      <rect x="976.69" y="607.5" width="140" height="56" class="m-shape"/>
+      <rect x="976.69" y="607.5" width="140" height="34" class="m-shape er-header"/>
+      <line x1="976.69" y1="641.5" x2="1116.69" y2="641.5" class="er-divider"/>
+      <text x="1046.69" y="624.5" class="m-label t-label-strong" text-anchor="middle">RESTAURACAO</text>
+      <text x="1046.69" y="652.5" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__ITEM_5fEXPOSTO" data-role="vertex">
+      <rect x="976.69" y="897" width="140" height="78" class="m-shape"/>
+      <rect x="976.69" y="897" width="140" height="34" class="m-shape er-header"/>
+      <line x1="976.69" y1="931" x2="1116.69" y2="931" class="er-divider"/>
+      <text x="1046.69" y="914" class="m-label t-label-strong" text-anchor="middle">ITEM_EXPOSTO</text>
+      <text x="1046.69" y="942" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-node--rect" id="m36e9f9__node__EVENTO_5fHISTORICO" data-role="vertex">
+      <rect x="1246.5" y="152.88" width="165.11" height="122" class="m-shape"/>
+      <rect x="1246.5" y="152.88" width="165.11" height="34" class="m-shape er-header"/>
+      <line x1="1246.5" y1="186.88" x2="1411.61" y2="186.88" class="er-divider"/>
+      <text x="1329.06" y="169.88" class="m-label t-label-strong" text-anchor="middle">EVENTO_HISTORICO</text>
+      <text x="1329.06" y="197.88" class="m-label er-empty t-edge" text-anchor="middle">(no attributes)</text>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__CONTINENTE__PAIS__0" data-role="connector">
+      <path d="M 223.38 95 L 302.82 95 L 302.82 23.75 L 396.88 23.75" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="282.15" y="48.22" width="41.33" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="302.82" y="59.38" class="m-label t-edge" text-anchor="middle">possui</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PAIS__REGIAO_5fHISTORICA__0" data-role="connector">
+      <path d="M 536.88 23.75 L 681.09 23.75" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="584.53" y="12.6" width="48.91" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="608.99" y="23.75" class="m-label t-edge" text-anchor="middle">engloba</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__REGIAO_5fHISTORICA__CIDADE_5fHISTORICA__0" data-role="connector">
+      <path d="M 842.82 23.75 L 898.89 23.75 L 898.89 109.31 L 966.89 109.31" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="875.59" y="55.38" width="46.6" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="898.89" y="66.53" class="m-label t-edge" text-anchor="middle">contem</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__ERA_5fHISTORICA__PERIODO_5fHISTORICO__0" data-role="connector">
+      <path d="M 223.38 157.75 L 380.73 157.75" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="273.6" y="146.6" width="56.91" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="302.05" y="157.75" class="m-label t-edge" text-anchor="middle">subdivide</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PERIODO_5fHISTORICO__EVENTO_5fHISTORICO__0" data-role="connector">
+      <path d="M 553.03 141.75 L 912.32 141.75 L 912.32 187.31 L 1246.5 187.31" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="1055.54" y="176.16" width="75.75" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1093.41" y="187.31" class="m-label t-edge" text-anchor="middle">contextualiza</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__CIDADE_5fHISTORICA__EVENTO_5fHISTORICO__0" data-role="connector">
+      <path d="M 1126.5 109.31 L 1194.5 109.31 L 1194.5 216.21 L 1246.5 216.21" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="1176.85" y="151.61" width="35.29" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1194.5" y="162.76" class="m-label t-edge" text-anchor="middle">sedia</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PERSONAGEM_5fHISTORICO__CIDADE_5fHISTORICA__0" data-role="connector">
+      <path d="M 256.75 320 L 1046.69 320 L 1046.69 142.31" class="m-path" marker-start="url(#m36e9f9__mk-zero-many)" marker-end="url(#m36e9f9__mk-only-one)"/>
+      <g class="m-edge-label">
+        <rect x="1016.62" y="220.01" width="60.14" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1046.69" y="231.16" class="m-label t-edge" text-anchor="middle">nasce_em</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PERSONAGEM_5fHISTORICO__CARGO_5fOCUPADO__0" data-role="connector">
+      <path d="M 256.75 320 L 315.29 320 L 315.29 448.42 L 389.83 448.42" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="294.19" y="373.06" width="42.21" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="315.29" y="384.21" class="m-label t-edge" text-anchor="middle">exerce</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__CARGO_5fPUBLICO__CARGO_5fOCUPADO__0" data-role="connector">
+      <path d="M 226.08 449 L 389.83 449" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="269.31" y="437.85" width="40.02" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="289.32" y="449" class="m-label t-edge" text-anchor="middle">define</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PERSONAGEM_5fHISTORICO__GRUPO_5fSOCIAL__0" data-role="connector">
+      <path d="M 256.75 248.75 L 396.88 248.75" class="m-path" marker-start="url(#m36e9f9__mk-zero-many)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="300.07" y="237.6" width="53.49" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="326.82" y="248.75" class="m-label t-edge" text-anchor="middle">pertence</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PERSONAGEM_5fHISTORICO__EVENTO_5fHISTORICO__0" data-role="connector">
+      <path d="M 256.75 320 L 1356.57 320 L 1356.57 274.88" class="m-path" marker-start="url(#m36e9f9__mk-zero-many)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="1330.12" y="286.29" width="52.91" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1356.57" y="297.44" class="m-label t-edge" text-anchor="middle">participa</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__INSTITUICAO__COLECAO__0" data-role="connector">
+      <path d="M 223.38 545 L 396.88 545" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="285.22" y="533.85" width="49.81" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="310.13" y="545" class="m-label t-edge" text-anchor="middle">mantem</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__COLECAO__ITEM_5fACERVO__0" data-role="connector">
+      <path d="M 536.88 595 L 691.95 595" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="592.57" y="583.85" width="43.69" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="614.42" y="595" class="m-label t-edge" text-anchor="middle">agrupa</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__TIPO_5fITEM__ITEM_5fACERVO__0" data-role="connector">
+      <path d="M 223.38 641 L 691.95 641" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="429.76" y="629.85" width="55.81" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="457.66" y="641" class="m-label t-edge" text-anchor="middle">classifica</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__MATERIAL__ITEM_5fACERVO__0" data-role="connector">
+      <path d="M 223.38 737 L 691.95 737" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="432.9" y="725.85" width="49.54" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="457.66" y="737" class="m-label t-edge" text-anchor="middle">compoe</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__ITEM_5fACERVO__RESTAURACAO__0" data-role="connector">
+      <path d="M 831.95 642.67 L 976.69 642.67" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="886.96" y="631.52" width="34.72" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="904.32" y="642.67" class="m-label t-edge" text-anchor="middle">sofre</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__ITEM_5fACERVO__EVENTO_5fHISTORICO__0" data-role="connector">
+      <path d="M 831.95 689 L 1301.54 689 L 1301.54 274.88" class="m-path" marker-start="url(#m36e9f9__mk-zero-many)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="1267.32" y="470.79" width="68.43" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1301.54" y="481.94" class="m-label t-edge" text-anchor="middle">testemunha</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__AUTOR__OBRA_5fBIBLIOGRAFICA__0" data-role="connector">
+      <path d="M 223.38 833 L 376.75 833" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="276.04" y="821.85" width="48.04" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="300.06" y="833" class="m-label t-edge" text-anchor="middle">escreve</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__EDITORA__OBRA_5fBIBLIOGRAFICA__0" data-role="connector">
+      <path d="M 223.38 888.5 L 376.75 888.5" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="277.64" y="877.35" width="44.85" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="300.06" y="888.5" class="m-label t-edge" text-anchor="middle">publica</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__OBRA_5fBIBLIOGRAFICA__CITACAO_5fHISTORICA__0" data-role="connector">
+      <path d="M 557.02 877.5 L 677.02 877.5" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="582.31" y="866.35" width="69.42" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="617.02" y="877.5" class="m-label t-edge" text-anchor="middle">fundamenta</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__FONTE_5fPRIMARIA__TRANSCRICAO__0" data-role="connector">
+      <path d="M 539.98 1132 L 691.95 1132" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="595.3" y="1120.85" width="41.33" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="615.97" y="1132" class="m-label t-edge" text-anchor="middle">possui</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__IDIOMA__FONTE_5fPRIMARIA__0" data-role="connector">
+      <path d="M 223.38 1121 L 393.79 1121" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="272.8" y="1109.85" width="71.57" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="308.58" y="1121" class="m-label t-edge" text-anchor="middle">redigida_em</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PESQUISADOR__PROJETO_5fPESQUISA__0" data-role="connector">
+      <path d="M 223.38 1025 L 383.12 1025" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="275.07" y="1013.85" width="56.36" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="303.25" y="1025" class="m-label t-edge" text-anchor="middle">coordena</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__PROJETO_5fPESQUISA__ITEM_5fACERVO__0" data-role="connector">
+      <path d="M 550.65 1014 L 632.49 1014 L 632.49 735.2 L 691.95 735.2" class="m-path" marker-start="url(#m36e9f9__mk-zero-many)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="610.7" y="837" width="43.57" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="632.49" y="848.15" class="m-label t-edge" text-anchor="middle">analisa</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__EXPOSICAO__ITEM_5fEXPOSTO__0" data-role="connector">
+      <path d="M 223.38 1217 L 1046.69 1217 L 1046.69 975" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="1029.1" y="1084.85" width="35.18" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="1046.69" y="1096" class="m-label t-edge" text-anchor="middle">exibe</text>
+      </g>
+    </g>
+    <g class="m-node m-edge" id="m36e9f9__edge__ITEM_5fACERVO__ITEM_5fEXPOSTO__0" data-role="connector">
+      <path d="M 831.95 689 L 903.79 689 L 903.79 953 L 976.69 953" class="m-path" marker-start="url(#m36e9f9__mk-only-one)" marker-end="url(#m36e9f9__mk-zero-many)"/>
+      <g class="m-edge-label">
+        <rect x="881.85" y="809.85" width="43.88" height="22.3" rx="2" ry="2" class="m-pill-bg"/>
+        <text x="903.79" y="821" class="m-label t-edge" text-anchor="middle">integra</text>
+      </g>
+    </g>
+  </g>
+</svg>
